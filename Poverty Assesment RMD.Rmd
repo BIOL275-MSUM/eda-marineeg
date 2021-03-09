@@ -1,0 +1,22 @@
+---
+title: "Poverty Assessment Rmd"
+author: "Marin Eeg"
+date: "3/9/2021"
+output: github_document
+---
+
+All data was found on the  kidscount website, https://datacenter.kidscount.org/data#USA/1/0/char/0.
+
+The first data set was found under the Poverty tab titled Population in poverty, the second was under School Age, titled Teens ages 16 to 19 not in school and not high school graduates. The last was under Health Insurance, titled PArents without health insurance.
+
+All data sets were downloaded as excel files.
+
+I added a new folder named Data and moved the excel files into that on RStudio, loaded the library package (readxl), and read the files in. Once read in I renamed all of them so they would be in the environment tab on Rstudio.
+
+
+
+
+
+```{r}
+sessioninfo::session_info(c("tidyverse"))
+```
